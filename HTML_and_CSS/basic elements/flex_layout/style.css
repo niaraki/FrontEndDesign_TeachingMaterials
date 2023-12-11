@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "shabnam";
+    src: local(shabnam), url(shabnam.woff) format("woff");
+    font-weight: normal;
+    font-display: swap
+}
+
+body{
+    margin:0px;
+    font-family:"shabnam";
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: khaki;
+    width: 40vw;
+    padding: 20px;
+}
+
+p{
+    text-align: right;
+    text-justify: inter-word;
+}

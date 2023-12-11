@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display and Position</title>
+    <style>
+      .parent {
+        display: block;
+        width: 500px;
+        height: 400px;
+        background-color: red;
+        left: 300px;
+        top: 300px;
+      }
+      .child-one {
+        display: block;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        left: 30px;
+        top: 30px;
+        z-index: 1;
+      }
+      .child-two {
+        display: block;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        z-index: 110;
+        left: 100px;
+        top: 100px;
+        transform: rotate(45deg);
+      }
+      .child-three {
+        display: block;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        top: 0px;
+        left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child-one"></div>
+      <div class="child-two"></div>
+      <div class="child-three"></div>
+    </div>
+    <div>
+      <meter style="height: 300px"></meter>
+      <progress style="color: red; background-color: green"></progress>
+    </div>
+  </body>
+</html>

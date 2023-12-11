@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: cursive;
+}
+
+body {
+  background-color: #363062;
+  color: white;
+}
+
+section {
+  display: block;
+  position: absolute;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #435585;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.personal {
+  text-align: center;
+}
+.personal-image {
+  border-radius: 50%;
+  height: 120px;
+  border: 2px solid #f5e8c7;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.pro {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px;
+  left: 10px;
+  top: 10px;
+}
+.profile-name {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.profile-city {
+  margin-top: 2px;
+}
+.profile-job {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.buttons {
+  margin: auto;
+  text-align: center;
+}
+button {
+  display: inline-block;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icons i {
+  margin: 10px 3px;
+}
+
+.skills {
+  background-color: #818fb4;
+  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+}
+.skills li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 2px;
+}
+.skills-title {
+  margin-bottom: 10px;
+}

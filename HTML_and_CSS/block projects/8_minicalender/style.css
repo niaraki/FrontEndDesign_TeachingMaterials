@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: slateblue;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.container .header{
+    text-align: center;
+    padding: 5px 0px;
+    background-color: red;
+    border-radius: 20px 20px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+}
+.container .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 310px;
+    width: 100%;
+}
+.dayName{
+    font-size: 20px;
+    top: 20px;
+    position: absolute;
+    font-weight: bold;
+    color: gray;
+}
+.dayNumber{
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+}
+.yearNumber{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    color: gray;
+}

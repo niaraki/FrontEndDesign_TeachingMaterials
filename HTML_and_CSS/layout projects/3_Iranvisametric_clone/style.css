@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: "iranyekanwebregular_FaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/iranyekanwebregular_FaNum.woff2) format("woff2");
+}
+@font-face {
+  font-family: "YekanLight";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/YekanBakhFaNum-Light.woff) format("woff2");
+}
+@font-face {
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+  font-weight: 100;
+  src: url(assets/fonts/YekanBakhFaNum-Regular.woff) format("woff2");
+}
+
+body {
+  font-family: "iranyekanwebregular_FaNum";
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+.header-topbar {
+  background-color: #1c3951;
+  width: 100%;
+  height: 40px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-topbar a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.header-phone {
+  margin: 0 140px 0 40px;
+  letter-spacing: 1px;
+}
+
+.header-menu {
+  height: 100px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+}
+
+.header-menu-item li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 20px;
+  color: white;
+  font-family: "YekanLight";
+}
+
+.header-menu-fixed {
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 1s;
+}
+
+.header-menu-fixed li a {
+  color: black;
+}
+
+.header-menu-item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 130px;
+}
+
+.header-logo {
+  font-size: 2.7rem;
+  color: white;
+  float: right;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 140px;
+}
+
+header a:hover {
+  color: lightgreen;
+}
+
+.header-menu-item li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+#main-first {
+  background-image: url("assets/images/Germany.jpg");
+  background-position: center;
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  line-height: 6rem;
+}
+#main-first h1:first-child {
+  z-index: 2;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+#main-first h2 {
+  z-index: 2;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+#main-first h3 {
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.section-overlay {
+  background: rgba(53, 48, 43, 0.65);
+  position: absolute;
+  height: 100%;
+  border: 0;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
