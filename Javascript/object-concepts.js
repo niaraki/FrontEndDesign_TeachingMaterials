@@ -175,7 +175,7 @@ const circleObj = new Circle(10);
 if (Object.getPrototypeOf(circleObj) === Circle.prototype)
   console.log("prototype is the base of each object created by constructor");
 
-/* we can put our functions to prototype to prevent memory waste */
+/* we can add our functions to prototype to prevent memory waste */
 Circle.prototype.Move = function () {
   console.log(`Circle ${this.radius} move `);
 };
@@ -183,5 +183,4 @@ circleObj.Move();
 
 /* Iterating over peroperties */
 console.log(Object.keys(circleObj)); //doesn't list properties in prototype
-for (let key in circleObj) console.log(key); //lists 
-
+for (let key in circleObj) console.log(key); //lists
